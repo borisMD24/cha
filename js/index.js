@@ -37,6 +37,11 @@ document.querySelectorAll(".insert").forEach((insert)=>{
     insertObserver.observe(insert)
 });
 
+document.getElementById("logo").addEventListener("click", ()=>{
+    window.scrollTo(0, 0);
+    console.log("clicked");
+})
+
 redisignHeader();
 addDelayOnNavItems();
 setCartEventListener();

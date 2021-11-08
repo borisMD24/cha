@@ -114,6 +114,7 @@ $head-height : 40vh;
 			align-items: center;
 			justify-content: center;
 			.nav-wrapper{
+				pointer-events:all;
 				.nav-item{
 					opacity: 1;
 					display: inline-block;

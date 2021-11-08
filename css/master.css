@@ -131,6 +131,10 @@ html {
           justify-content: center;
 }
 
+.page .header .nav-container .nav-wrapper {
+  pointer-events: all;
+}
+
 .page .header .nav-container .nav-wrapper .nav-item {
   opacity: 1;
   display: inline-block;
